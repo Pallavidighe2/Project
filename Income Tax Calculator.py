@@ -40,6 +40,7 @@ def tax_calculate_with_deduction():
 
     deduction()
     taxable_income =  Total_Income-Total_Deduction
+    taxable_income=int(taxable_income)
     print(taxable_income)
     if taxable_income <= 250000:
         print("You don't pay any tax ")
